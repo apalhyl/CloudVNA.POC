@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F88275D1-1444-40C5-AA5F-CEECC325D36A}|Hyland.SOAP.Core\\Hyland.SOAP.Core.csproj|c:\\office\\acuo.cloudvna.poc\\soap\\hyland.soap.core\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F88275D1-1444-40C5-AA5F-CEECC325D36A}|Hyland.SOAP.Core\\Hyland.SOAP.Core.csproj|solutionrelative:hyland.soap.core\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C053D541-29DE-49DF-AC17-BE1DEA482966}|Hyland.SOAP.Client\\Hyland.SOAP.Client.csproj|c:\\office\\acuo.cloudvna.poc\\soap\\hyland.soap.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C053D541-29DE-49DF-AC17-BE1DEA482966}|Hyland.SOAP.Client\\Hyland.SOAP.Client.csproj|solutionrelative:hyland.soap.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C71D47-A17A-4A86-B34D-2158572BD9F1}|Hyland.SOAP.Service\\Hyland.SOAP.Service.csproj|c:\\office\\acuo.cloudvna.poc\\soap\\hyland.soap.service\\customserviceauthorizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C71D47-A17A-4A86-B34D-2158572BD9F1}|Hyland.SOAP.Service\\Hyland.SOAP.Service.csproj|solutionrelative:hyland.soap.service\\customserviceauthorizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88275D1-1444-40C5-AA5F-CEECC325D36A}|Hyland.SOAP.Core\\Hyland.SOAP.Core.csproj|c:\\office\\acuo.cloudvna.poc\\soap\\hyland.soap.core\\customassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F88275D1-1444-40C5-AA5F-CEECC325D36A}|Hyland.SOAP.Core\\Hyland.SOAP.Core.csproj|solutionrelative:hyland.soap.core\\customassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C71D47-A17A-4A86-B34D-2158572BD9F1}|Hyland.SOAP.Service\\Hyland.SOAP.Service.csproj|c:\\office\\acuo.cloudvna.poc\\soap\\hyland.soap.service\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C71D47-A17A-4A86-B34D-2158572BD9F1}|Hyland.SOAP.Service\\Hyland.SOAP.Service.csproj|solutionrelative:hyland.soap.service\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72C71D47-A17A-4A86-B34D-2158572BD9F1}|Hyland.SOAP.Service\\Hyland.SOAP.Service.csproj|c:\\office\\acuo.cloudvna.poc\\soap\\hyland.soap.service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72C71D47-A17A-4A86-B34D-2158572BD9F1}|Hyland.SOAP.Service\\Hyland.SOAP.Service.csproj|solutionrelative:hyland.soap.service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 191,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomServiceAuthorizationManager.cs",
+              "DocumentMoniker": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Service\\CustomServiceAuthorizationManager.cs",
+              "RelativeDocumentMoniker": "Hyland.SOAP.Service\\CustomServiceAuthorizationManager.cs",
+              "ToolTip": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Service\\CustomServiceAuthorizationManager.cs",
+              "RelativeToolTip": "Hyland.SOAP.Service\\CustomServiceAuthorizationManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:45:46.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Core\\Utils.cs",
+              "RelativeDocumentMoniker": "Hyland.SOAP.Core\\Utils.cs",
+              "ToolTip": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Core\\Utils.cs",
+              "RelativeToolTip": "Hyland.SOAP.Core\\Utils.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAjwAMBAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:44:35.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Client\\Program.cs",
+              "RelativeDocumentMoniker": "Hyland.SOAP.Client\\Program.cs",
+              "ToolTip": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Client\\Program.cs",
+              "RelativeToolTip": "Hyland.SOAP.Client\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAD4vxsAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T05:41:10.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomAssertion.cs",
+              "DocumentMoniker": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Core\\CustomAssertion.cs",
+              "RelativeDocumentMoniker": "Hyland.SOAP.Core\\CustomAssertion.cs",
+              "ToolTip": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Core\\CustomAssertion.cs",
+              "RelativeToolTip": "Hyland.SOAP.Core\\CustomAssertion.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAswDcBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T05:40:50.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Service\\IService.cs",
+              "RelativeDocumentMoniker": "Hyland.SOAP.Service\\IService.cs",
+              "ToolTip": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Service\\IService.cs",
+              "RelativeToolTip": "Hyland.SOAP.Service\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T05:39:25.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Service\\Startup.cs",
+              "RelativeDocumentMoniker": "Hyland.SOAP.Service\\Startup.cs",
+              "ToolTip": "C:\\Office\\Acuo.CloudVNA.POC\\Soap\\Hyland.SOAP.Service\\Startup.cs",
+              "RelativeToolTip": "Hyland.SOAP.Service\\Startup.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC0AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T05:38:42.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 541,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

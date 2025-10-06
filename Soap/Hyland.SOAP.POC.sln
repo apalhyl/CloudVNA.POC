@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyland.SOAP.Service", "Hyland.SOAP.Service\Hyland.SOAP.Service.csproj", "{72C71D47-A17A-4A86-B34D-2158572BD9F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyland.SOAP.Core", "Hyland.SOAP.Core\Hyland.SOAP.Core.csproj", "{F88275D1-1444-40C5-AA5F-CEECC325D36A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyland.SOAP.Client", "Hyland.SOAP.Client\Hyland.SOAP.Client.csproj", "{C053D541-29DE-49DF-AC17-BE1DEA482966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Debug|x64.ActiveCfg = Debug|x64
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Debug|x64.Build.0 = Debug|x64
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Release|x64.ActiveCfg = Release|x64
+		{72C71D47-A17A-4A86-B34D-2158572BD9F1}.Release|x64.Build.0 = Release|x64
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Debug|x64.ActiveCfg = Debug|x64
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Debug|x64.Build.0 = Debug|x64
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Release|x64.ActiveCfg = Release|x64
+		{F88275D1-1444-40C5-AA5F-CEECC325D36A}.Release|x64.Build.0 = Release|x64
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Debug|x64.ActiveCfg = Debug|x64
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Debug|x64.Build.0 = Debug|x64
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Release|x64.ActiveCfg = Release|x64
+		{C053D541-29DE-49DF-AC17-BE1DEA482966}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {049F99BB-1BA3-40FA-B6F8-668D45B617D0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,154 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "AcuoMedIHEAuditContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Acuo.IHEAudit.DAL",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[T_ACUO_AUDIT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_CONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_EVENTS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_IHE_AUDIT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_SYSLOG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_TASKS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_UPGRADE_BITMASK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_UPGRADE_DETAIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_UPGRADE_HISTORY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_USER_AUDIT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_VERSION_VER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GetSqlTransAppLock]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GrantRightsOnUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[PR_QU_GrantRightsToRoles]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[PR_QU_RepairDatabase]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[PR_QU_UPGRADE_Summary]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ReleaseSqlTransAppLock]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_AUDITS_DELETE_ACUO_AUDITS]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_AUDITS_DELETE_IHE_AUDITS]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_AUDITS_DELETE_USER_AUDITS]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_AUDITS_UPDATE_RECYLCE_BIN_PARMS]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_CONFIG_SELECT]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_EVENT_AUDIT_CHECK]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_IHEAUDIT_INSERT]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_TASKS_DELETE]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_TASKS_GET_BY_TARGET_ID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SP_TASKS_UPDATE]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[USP_RethrowError]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": true,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": true,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": true,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
