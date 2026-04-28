@@ -19,7 +19,7 @@ namespace Hyland.SOAP.Client
             try
             {
                 
-                var certificate = Utils.GetCertificateCollectionUsingThumbprint("7316dab70f17e863f3eb7f81bb7752b83459ed7f")[0];
+                var certificate = Utils.GetCertificateCollectionUsingThumbprint("84ea9cad997b9ced174e79cba08563711de4041b")[0];
                 string xml = string.Empty;
                 bool isValid = false;
 
@@ -68,7 +68,7 @@ namespace Hyland.SOAP.Client
                 stream.Flush();
                 stream.Position = 0;
 
-                var certificate = Utils.GetCertificateCollectionUsingThumbprint("7316dab70f17e863f3eb7f81bb7752b83459ed7f")[0];
+                var certificate = Utils.GetCertificateCollectionUsingThumbprint("84ea9cad997b9ced174e79cba08563711de4041b")[0];
                 var createdAssertion = Utils.GetDummyCustomAssertion(certificate.SubjectName.Name);
                 var xml = createdAssertion.GetSignedAssertionXmlAsText(certificate, KeyClauseType.X509);
 
@@ -81,15 +81,21 @@ namespace Hyland.SOAP.Client
 
                 requestMessage.Headers.MessageId = new UniqueId(Guid.NewGuid());
 
-                using (var proxy = ClientUtils.GetServiceProxy<IServiceContract>("https://localhost:5001/Service", false))
+                using (var proxy = ClientUtils.GetServiceProxy<IServiceContractAsync>("https://localhost:5002/soap/xds-registry/async", false))
                 {
-                    var responseMessage = proxy.Channel.Query(requestMessage);
-                    if (responseMessage.IsFault)
-                        throw new Exception(responseMessage.ToString());
-
-                    var response = GetQueryResponseFromMessage(responseMessage);
-                    return response;
+                    proxy.Channel.QueryAsync(requestMessage);
+                    return new AdhocQueryResponse();
                 }
+
+                //using (var proxy = ClientUtils.GetServiceProxy<IServiceContract>("https://localhost:5002/soap/xds-registry", false))
+                //{
+                //    var responseMessage = proxy.Channel.Query(requestMessage);
+                //    if (responseMessage.IsFault)
+                //        throw new Exception(responseMessage.ToString());
+
+                //    var response = GetQueryResponseFromMessage(responseMessage);
+                //    return response;
+                //}
             }
         }
 

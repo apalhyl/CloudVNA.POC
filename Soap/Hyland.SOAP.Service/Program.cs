@@ -31,7 +31,7 @@ namespace Hyland.SOAP.Service
                     {
                         listenOptions.UseHttps(httpsOptions =>
                         {
-                            httpsOptions.ServerCertificate = Utils.GetCertificateCollectionUsingThumbprint("7316dab70f17e863f3eb7f81bb7752b83459ed7f")[0];
+                            httpsOptions.ServerCertificate = Utils.GetCertificateCollectionUsingThumbprint("84ea9cad997b9ced174e79cba08563711de4041b")[0];
                             httpsOptions.ClientCertificateMode = Microsoft.AspNetCore.Server.Kestrel.Https.ClientCertificateMode.AllowCertificate;
                             httpsOptions.ClientCertificateValidation = ClientCertificateValidation;
 

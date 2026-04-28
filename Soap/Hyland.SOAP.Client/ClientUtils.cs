@@ -37,7 +37,7 @@ namespace Hyland.SOAP.Client
             {
                 //Create new client credentials
                 var clientCredentials = new ClientCredentials();
-                clientCredentials.ClientCertificate.Certificate = Utils.GetCertificateCollectionUsingThumbprint("7316dab70f17e863f3eb7f81bb7752b83459ed7f")[0];
+                clientCredentials.ClientCertificate.Certificate = Utils.GetCertificateCollectionUsingThumbprint("84ea9cad997b9ced174e79cba08563711de4041b")[0];
                 //clientCredentials.ClientCertificate.Certificate = Utils.GetCertificateCollectionUsingThumbprint("decf0d5bb1cc44f0a7bb4424c19447c631448ccd")[0];
                 clientCredentials.ServiceCertificate.Authentication.CertificateValidationMode = X509CertificateValidationMode.None;
 
@@ -92,7 +92,7 @@ namespace Hyland.SOAP.Client
             binding.Security.Transport = new HttpTransportSecurity();
             binding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Certificate;
             binding.Security.Transport.ProxyCredentialType = HttpProxyCredentialType.None;
-            binding.Security.Transport.Realm = string.Empty;
+            // binding.Security.Transport.Realm = string.Empty;
             binding.Security.Message = new NonDualMessageSecurityOverHttp();
             binding.Security.Message.ClientCredentialType = MessageCredentialType.None;
             binding.Security.Message.NegotiateServiceCredential = false;

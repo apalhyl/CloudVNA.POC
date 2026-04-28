@@ -40,7 +40,7 @@ namespace Hyland.SOAP.Service
                 });
                 serviceBuilder.ConfigureServiceHostBase<Service>(options =>
                 {
-                    options.Credentials.ServiceCertificate.Certificate = Utils.GetCertificateCollectionUsingThumbprint("7316dab70f17e863f3eb7f81bb7752b83459ed7f")[0];
+                    options.Credentials.ServiceCertificate.Certificate = Utils.GetCertificateCollectionUsingThumbprint("84ea9cad997b9ced174e79cba08563711de4041b")[0];
                     options.Credentials.ClientCertificate.Authentication.CertificateValidationMode = CoreWCF.Security.X509CertificateValidationMode.Custom;
                     options.Credentials.ClientCertificate.Authentication.CustomCertificateValidator = new CustomClientCertificateValidator();
                     options.Authorization.ServiceAuthorizationManager = new CustomServiceAuthorizationManager();

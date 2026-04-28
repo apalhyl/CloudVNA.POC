@@ -14,4 +14,11 @@ namespace Hyland.SOAP.Client
         [OperationContract(Action = "urn:ihe:iti:2007:RegistryStoredQuery", ReplyAction = "urn:ihe:iti:2007:RegistryStoredQueryResponse")]
         Message Query(Message request);
     }
+
+    [ServiceContract]
+    public interface IServiceContractAsync
+    {
+        [OperationContract(Action = "urn:ihe:iti:2007:RegistryStoredQuery", IsOneWay = true)]
+        void QueryAsync(Message request);
+    }
 }
